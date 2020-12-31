@@ -76,7 +76,9 @@ function Spot(i,j){
 }
 
 function setup(){
-    createCanvas(1350,630);
+    var hei = window.screen.height;
+    var wid = window.screen.width;
+    createCanvas(wid-wid/20,hei-hei/5);
     w = width/cols;
     h = height/rows;
 
